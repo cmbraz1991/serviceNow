@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Teste_servicenow</name>
+        <order/>
+        <script><![CDATA[function onSubmit () {
+    //Type appropriate comment here, and begin script below
+   // alert(g_form.getValue('number'));
+	alert("CAMILO");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-14 18:29:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e16dc78c1bf12010dc724196bc4bcb7b</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Teste_servicenow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceNowTest" source="x_206621_serviceno">90d7cf0c1b312010dc724196bc4bcb97</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNowTest">90d7cf0c1b312010dc724196bc4bcb97</sys_scope>
+        <sys_update_name>sys_script_client_e16dc78c1bf12010dc724196bc4bcb7b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-14 20:13:01</sys_updated_on>
+        <table>incident</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ServiceNowTest">90d7cf0c1b312010dc724196bc4bcb97</application>
+        <file_path/>
+        <instance_id>4f6ace59db0c409049eac5970596190a</instance_id>
+        <instance_name>dev93626</instance_name>
+        <name>sys_script_client_e16dc78c1bf12010dc724196bc4bcb7b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Teste_servicenow&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit () {
+    //Type appropriate comment here, and begin script below
+   // alert(g_form.getValue('number'));
+	alert("CAMILO");
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-01-14 18:29:26&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e16dc78c1bf12010dc724196bc4bcb7b&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;Teste_servicenow&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ServiceNowTest" source="x_206621_serviceno"&gt;90d7cf0c1b312010dc724196bc4bcb97&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ServiceNowTest"&gt;90d7cf0c1b312010dc724196bc4bcb97&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e16dc78c1bf12010dc724196bc4bcb7b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-01-14 20:13:01&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1351933702</payload_hash>
+        <record_name>Teste_servicenow</record_name>
+        <reverted_from/>
+        <source>696bc7881bf12010dc724196bc4bcb78</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-14 20:13:01</sys_created_on>
+        <sys_id>500aef001b752010dc724196bc4bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1770287abcf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-14 20:13:01</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>980aef00ce7520107bd7b2f2fed11ac1</update_guid>
+        <update_guid_history>980aef00ce7520107bd7b2f2fed11ac1:1351933702,6ae9a740af75201021425f1ed9049fa3:-506846094,a6a92b0080752010f3a019d25392efee:1212700140,7e55d7c0b3352010a2c2bbd20d8e6939:524046220,5955d30436352010d5faff87abe5e2b0:-233750119,15259bc05a352010f1cf903fe6c7407c:524046220,81055fc04a352010703658db22e273ac:981363966,8ac45fc0933520109269a56dfbd8cc39:292605650,be849bc0f23520107a08e4b4e933b376:-1113433882,c334d7c05135201081c4769df6e40803:-1141931770,38631b8053352010ed72336f248b6fc8:1467869140,24039780b735201056d8f106b1644744:877217658,d1c2df408a3520109b1e979f663071c2:2033686806,47421f40953520108cd2b298dc94d816:270974305</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-14 20:15:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>19eda70350fe4fe88342bb7b371b6d04</sys_id>
+        <sys_metadata>e16dc78c1bf12010dc724196bc4bcb7b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Teste_servicenow</sys_name>
+        <sys_package display_value="ServiceNowTest" source="x_206621_serviceno">90d7cf0c1b312010dc724196bc4bcb97</sys_package>
+        <sys_parent display_value="Incident">fa257b04c927101091f9f06464832798</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNowTest">90d7cf0c1b312010dc724196bc4bcb97</sys_scope>
+        <sys_scope_delete display_value="">1b06601943a44be5afa1d0d0e415adc1</sys_scope_delete>
+        <sys_update_name>sys_script_client_e16dc78c1bf12010dc724196bc4bcb7b</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e16dc78c1bf12010dc724196bc4bcb7b">500aef001b752010dc724196bc4bcbc2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-14 20:15:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="camilo_teste" max_length="40" name="x_206621_serviceno_camilo_teste" type="collection">
+        <element label="date" max_length="40" name="date" type="glide_date"/>
+        <element label="id" max_length="40" name="id" type="integer"/>
+        <element label="manager" max_length="40" name="manager" type="string"/>
+        <element label="time" max_length="40" name="time" type="glide_time"/>
+    </element>
+</database>
